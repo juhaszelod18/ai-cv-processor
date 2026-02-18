@@ -1,3 +1,14 @@
 spring:
   application:
     name: intuitech
+  ai:
+    google:
+      genai:
+        api-key: ${GEMINI_API_KEY}
+        chat:
+          options:
+            model: gemini-2.0-flash
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
