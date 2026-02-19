@@ -76,7 +76,9 @@ public class CvValidationService {
                 .user(PROFILE_VALIDATION_PROMPT.formatted(profile))
                 .call()
                 .entity(ProfileValidation.class);
-        assert result != null;
+        if (result == null) {
+            throw new IllegalStateException("Profile validation returned no result from LLM");
+        }
         return new ValidationResult("profile", result.passed(), result.reason());
     }
 
