@@ -1,7 +1,7 @@
-package com.intuitech.intuitech.service;
+package com.aicvprocessor.service;
 
-import com.intuitech.intuitech.model.CvData;
-import com.intuitech.intuitech.model.ValidationResult;
+import com.aicvprocessor.model.CvData;
+import com.aicvprocessor.model.ValidationResult;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;
 

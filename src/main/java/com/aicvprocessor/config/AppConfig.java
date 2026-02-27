@@ -1,4 +1,4 @@
-package com.intuitech.intuitech.config;
+package com.aicvprocessor.config;
 
 import org.apache.tika.Tika;
 import org.springframework.context.annotation.Bean;

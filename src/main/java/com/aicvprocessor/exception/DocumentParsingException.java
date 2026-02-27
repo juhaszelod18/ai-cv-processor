@@ -1,4 +1,4 @@
-package com.intuitech.intuitech.exception;
+package com.aicvprocessor.exception;
 
 public class DocumentParsingException extends RuntimeException {
 

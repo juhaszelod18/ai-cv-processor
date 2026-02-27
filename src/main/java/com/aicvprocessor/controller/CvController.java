@@ -1,11 +1,11 @@
-package com.intuitech.intuitech.controller;
+package com.aicvprocessor.controller;
 
-import com.intuitech.intuitech.exception.DocumentParsingException;
-import com.intuitech.intuitech.model.CvAnalysisResponse;
-import com.intuitech.intuitech.model.CvData;
-import com.intuitech.intuitech.service.CvExtractionService;
-import com.intuitech.intuitech.service.CvValidationService;
-import com.intuitech.intuitech.service.DocumentParserService;
+import com.aicvprocessor.exception.DocumentParsingException;
+import com.aicvprocessor.model.CvAnalysisResponse;
+import com.aicvprocessor.model.CvData;
+import com.aicvprocessor.service.CvExtractionService;
+import com.aicvprocessor.service.CvValidationService;
+import com.aicvprocessor.service.DocumentParserService;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

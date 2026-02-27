@@ -1,4 +1,4 @@
-package com.intuitech.intuitech.model;
+package com.aicvprocessor.model;
 
 public record ValidationResult(
         String field,

@@ -1,10 +1,10 @@
-package com.intuitech.intuitech;
+package com.aicvprocessor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IntuitechApplicationTests {
+class AiCvProcessorApplicationTests {
 
     @Test
     void contextLoads() {

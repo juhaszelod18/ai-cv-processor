@@ -1,4 +1,4 @@
-package com.intuitech.intuitech.model;
+package com.aicvprocessor.model;
 
 import java.util.List;
 

@@ -9,10 +9,10 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.intuitech</groupId>
-    <artifactId>intuitech</artifactId>
+    <groupId>com.aicvprocessor</groupId>
+    <artifactId>aicvprocessor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>intuitech</name>
+    <name>aicvprocessor</name>
     <description>CV processing application with LLM-powered field extraction</description>
 
     <properties>

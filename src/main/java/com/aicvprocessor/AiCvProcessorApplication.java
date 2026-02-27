@@ -1,13 +1,13 @@
-package com.intuitech.intuitech;
+package com.aicvprocessor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IntuitechApplication {
+public class AiCvProcessorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(IntuitechApplication.class, args);
+        SpringApplication.run(AiCvProcessorApplication.class, args);
     }
 
 }

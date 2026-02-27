@@ -1,6 +1,6 @@
-package com.intuitech.intuitech.service;
+package com.aicvprocessor.service;
 
-import com.intuitech.intuitech.exception.DocumentParsingException;
+import com.aicvprocessor.exception.DocumentParsingException;
 import org.apache.tika.Tika;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
