@@ -1,6 +1,8 @@
 # CV Processing API
 
-A Spring Boot REST API that accepts CV file uploads, uses Google Gemini to extract structured fields, and validates them against predefined rules.
+Screening CVs manually against a fixed set of hiring criteria is a repetitive, time-consuming task. This project automates that pipeline: upload a CV, and get structured extracted data back along with pass/fail results for each hiring criterion — no manual reading required.
+
+Built with Spring Boot and Google Gemini, it accepts PDF or DOCX uploads, extracts relevant fields using an LLM, and validates them against predefined rules.
 
 ---
 
@@ -43,6 +45,8 @@ Open `http://localhost:8080/swagger-ui/index.html` in your browser.
 2. Click **Try it out**
 3. Upload a PDF or DOCX file
 4. Click **Execute**
+
+> **No CV handy?** Two sample files are provided in `src/test/resources/` (`CV-1.pdf`, `CV-2.pdf`) — upload either one directly.
 
 ---
 
