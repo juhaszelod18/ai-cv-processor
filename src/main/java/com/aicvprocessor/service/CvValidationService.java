@@ -13,15 +13,19 @@ public class CvValidationService {
 
     private static final String PROFILE_VALIDATION_PROMPT = """
             You are evaluating a candidate's profile statement from their CV.
-            
-            Determine whether the profile expresses BOTH of the following aspirations. Wording may vary — judge the intent, not the exact phrasing:
-            1. Interest in GenAI (or AI, machine learning, generative models, LLMs) and a desire to grow or become skilled in it.
-            2. Interest in Java (or backend/software development) and a desire to grow or become skilled in it.
 
-            Be lenient with phrasing — "eager to contribute", "keen interest", "passionate about" all count as expressing desire to grow.
+            Determine whether the profile expresses BOTH of the following aspirations. \
+            Wording may vary — judge the intent, not the exact phrasing:
+            1. Interest in GenAI (or AI, machine learning, generative models, LLMs) \
+            and a desire to grow or become skilled in it.
+            2. Interest in Java (or backend/software development) \
+            and a desire to grow or become skilled in it.
+
+            Be lenient with phrasing — "eager to contribute", "keen interest", \
+            "passionate about" all count as expressing desire to grow.
             Both must be present for the validation to pass.
             Provide a brief reason for your decision.
-            
+
             Profile:
             %s
             """;
